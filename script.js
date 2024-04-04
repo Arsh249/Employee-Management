@@ -17,6 +17,8 @@ formValue.addEventListener("submit", (event)=>{
     else{
         message.innerHTML = "Success : Employee Added!";
         message.style.color = "green";
+        
+        
 
         const newEmployee = {
             id: employees.length + 1,

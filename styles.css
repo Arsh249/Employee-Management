@@ -41,10 +41,10 @@ input{
     height: 25px;
 }
 
-#employees{
-    color: wheat;
-    opacity: 0.4;
-}
+/* #employees{
+    color: red;
+    opacity: 0.2;
+} */
 
 .employee-list{
     display: flex;
