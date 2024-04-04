@@ -1,0 +1,66 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ems{
+    width: 90vw;
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 400px;
+    height: 25px;
+}
+
+#employees{
+    color: wheat;
+    opacity: 0.4;
+}
+
+.employee-list{
+    display: flex;
+    gap : 10px;
+    align-items: center;
+}
+
+.employee-data{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#delete{
+    border-radius: 50px;
+    width: 130px;
+}
